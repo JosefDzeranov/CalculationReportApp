@@ -68,7 +68,7 @@ namespace CalculationReportApp
             this.сортировкаToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(501, 28);
+            this.menuStrip2.Size = new System.Drawing.Size(707, 28);
             this.menuStrip2.TabIndex = 2;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -165,7 +165,7 @@ namespace CalculationReportApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(501, 493);
+            this.ClientSize = new System.Drawing.Size(707, 493);
             this.Controls.Add(this.rkkLabel);
             this.Controls.Add(this.appealsLabel);
             this.Controls.Add(this.CloseAPPButton);
