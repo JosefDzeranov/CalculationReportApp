@@ -7,3 +7,9 @@
 - В проекте используются методы LINQ(для сортировки полученных данных и поиска по фамилии).
 
 <p><img src="https://github.com/Alex-Tairov/CalculationReportApp/blob/master/CalculationReportApp/screenshots/gif.gif" alt="screenshot" width=70%></p>
+
+## Описание классов библиотеки.
+- public class Calculate класс для расчета данных и формирование списка испонителей.
+- public class FileProvider сохранение результатов в файл,чтение из файла.
+- public class Executor класс исполнителя.
+
