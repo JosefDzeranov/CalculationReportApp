@@ -53,6 +53,12 @@ namespace CalculationReportApp
             WriteDataGriedView(executors.OrderByDescending(x => x.TotalCount).ThenByDescending(x => x.RKK_Count).ToList());
         }
 
+        private void Searchbutton_Click(object sender, EventArgs e)
+        {
+            var text = SearchTextBox.Text;
+            WriteDataGriedView(executors.Where(x => x.Name.ToLower().Substring(0, text.Length) == text.ToLower()).ToList());
+        }
+
         private void WriteDataGriedView(List<Executor> executors)
         {
             ResultsdataGridView.Rows.Clear();
@@ -67,6 +73,7 @@ namespace CalculationReportApp
             }
 
         }
-       
+
+        
     }
 }

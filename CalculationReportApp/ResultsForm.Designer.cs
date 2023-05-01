@@ -39,6 +39,8 @@ namespace CalculationReportApp
             this.SortByRKKButton = new System.Windows.Forms.Button();
             this.SortByAppealsButton = new System.Windows.Forms.Button();
             this.SortByTotalAmountButton = new System.Windows.Forms.Button();
+            this.SearchTextBox = new System.Windows.Forms.TextBox();
+            this.Searchbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ResultsdataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -133,11 +135,30 @@ namespace CalculationReportApp
             this.SortByTotalAmountButton.UseVisualStyleBackColor = true;
             this.SortByTotalAmountButton.Click += new System.EventHandler(this.SortByTotalAmountButton_Click);
             // 
+            // SearchTextBox
+            // 
+            this.SearchTextBox.Location = new System.Drawing.Point(386, 482);
+            this.SearchTextBox.Name = "SearchTextBox";
+            this.SearchTextBox.Size = new System.Drawing.Size(100, 22);
+            this.SearchTextBox.TabIndex = 5;
+            // 
+            // Searchbutton
+            // 
+            this.Searchbutton.Location = new System.Drawing.Point(302, 520);
+            this.Searchbutton.Name = "Searchbutton";
+            this.Searchbutton.Size = new System.Drawing.Size(280, 47);
+            this.Searchbutton.TabIndex = 6;
+            this.Searchbutton.Text = "Поиск по фамилии исполнителя";
+            this.Searchbutton.UseVisualStyleBackColor = true;
+            this.Searchbutton.Click += new System.EventHandler(this.Searchbutton_Click);
+            // 
             // ResultsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(926, 594);
+            this.Controls.Add(this.Searchbutton);
+            this.Controls.Add(this.SearchTextBox);
             this.Controls.Add(this.SortByTotalAmountButton);
             this.Controls.Add(this.SortByAppealsButton);
             this.Controls.Add(this.SortByRKKButton);
@@ -148,6 +169,7 @@ namespace CalculationReportApp
             this.Load += new System.EventHandler(this.ResultsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ResultsdataGridView)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -163,5 +185,7 @@ namespace CalculationReportApp
         private System.Windows.Forms.Button SortByRKKButton;
         private System.Windows.Forms.Button SortByAppealsButton;
         private System.Windows.Forms.Button SortByTotalAmountButton;
+        private System.Windows.Forms.TextBox SearchTextBox;
+        private System.Windows.Forms.Button Searchbutton;
     }
 }
