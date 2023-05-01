@@ -49,9 +49,10 @@ namespace CalculationReportApp
             // 
             // appealsButton
             // 
+            this.appealsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.appealsButton.Location = new System.Drawing.Point(66, 50);
             this.appealsButton.Name = "appealsButton";
-            this.appealsButton.Size = new System.Drawing.Size(155, 50);
+            this.appealsButton.Size = new System.Drawing.Size(155, 65);
             this.appealsButton.TabIndex = 3;
             this.appealsButton.Text = "Загрузить данные по обращениям";
             this.appealsButton.UseVisualStyleBackColor = true;
@@ -80,7 +81,7 @@ namespace CalculationReportApp
             this.SortByAppleasToolStripMenuItem,
             this.SortByTotalAmountToolStripMenuItem});
             this.сортировкаToolStripMenuItem.Name = "сортировкаToolStripMenuItem";
-            this.сортировкаToolStripMenuItem.Size = new System.Drawing.Size(265, 24);
+            this.сортировкаToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
             this.сортировкаToolStripMenuItem.Text = "Сохранение в файл с сортировкой";
             // 
             // SortByNameToolStripMenuItem
@@ -113,9 +114,10 @@ namespace CalculationReportApp
             // 
             // rkkButton
             // 
-            this.rkkButton.Location = new System.Drawing.Point(66, 171);
+            this.rkkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rkkButton.Location = new System.Drawing.Point(66, 164);
             this.rkkButton.Name = "rkkButton";
-            this.rkkButton.Size = new System.Drawing.Size(155, 50);
+            this.rkkButton.Size = new System.Drawing.Size(155, 65);
             this.rkkButton.TabIndex = 4;
             this.rkkButton.Text = "Загрузить данные по РКК";
             this.rkkButton.UseVisualStyleBackColor = true;
@@ -127,9 +129,10 @@ namespace CalculationReportApp
             // 
             // ShowResultsButton
             // 
-            this.ShowResultsButton.Location = new System.Drawing.Point(66, 300);
+            this.ShowResultsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ShowResultsButton.Location = new System.Drawing.Point(66, 280);
             this.ShowResultsButton.Name = "ShowResultsButton";
-            this.ShowResultsButton.Size = new System.Drawing.Size(155, 52);
+            this.ShowResultsButton.Size = new System.Drawing.Size(155, 65);
             this.ShowResultsButton.TabIndex = 7;
             this.ShowResultsButton.Text = "Отобразить результаты";
             this.ShowResultsButton.UseVisualStyleBackColor = true;
@@ -137,9 +140,10 @@ namespace CalculationReportApp
             // 
             // CloseAPPButton
             // 
+            this.CloseAPPButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CloseAPPButton.Location = new System.Drawing.Point(66, 402);
             this.CloseAPPButton.Name = "CloseAPPButton";
-            this.CloseAPPButton.Size = new System.Drawing.Size(155, 50);
+            this.CloseAPPButton.Size = new System.Drawing.Size(155, 65);
             this.CloseAPPButton.TabIndex = 8;
             this.CloseAPPButton.Text = "Закрыть приложение";
             this.CloseAPPButton.UseVisualStyleBackColor = true;
@@ -148,6 +152,7 @@ namespace CalculationReportApp
             // appealsLabel
             // 
             this.appealsLabel.AutoSize = true;
+            this.appealsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.appealsLabel.Location = new System.Drawing.Point(292, 67);
             this.appealsLabel.Name = "appealsLabel";
             this.appealsLabel.Size = new System.Drawing.Size(0, 17);
@@ -156,6 +161,7 @@ namespace CalculationReportApp
             // rkkLabel
             // 
             this.rkkLabel.AutoSize = true;
+            this.rkkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rkkLabel.Location = new System.Drawing.Point(292, 188);
             this.rkkLabel.Name = "rkkLabel";
             this.rkkLabel.Size = new System.Drawing.Size(0, 17);

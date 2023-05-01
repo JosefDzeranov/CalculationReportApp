@@ -22,15 +22,13 @@ namespace CalculationReportApp
 
         private void ResultsForm_Load(object sender, EventArgs e)
         {
-            var resultsForm = new ResultsForm(executors);
             WriteDataGriedView(executors);
-          
         }
    
         private void SortByNameButton_Click(object sender, EventArgs e)
         {
             form1.sign = "name";
-            WriteDataGriedView(executors.OrderByDescending(x => x.Name).ToList());
+            WriteDataGriedView(executors.OrderBy(x => x.Name).ToList());
             
         }
 
@@ -56,7 +54,11 @@ namespace CalculationReportApp
         private void Searchbutton_Click(object sender, EventArgs e)
         {
             var text = SearchTextBox.Text;
-            WriteDataGriedView(executors.Where(x => x.Name.ToLower().Substring(0, text.Length) == text.ToLower()).ToList());
+            var result = executors.Where(x => x.Name.ToLower().Substring(0, text.Length) == text.ToLower()).ToList();
+            if (result.Count==0|| text.Length==0)
+                MessageBox.Show("Ничего не найдено");
+            else
+                WriteDataGriedView(result);
         }
 
         private void WriteDataGriedView(List<Executor> executors)
