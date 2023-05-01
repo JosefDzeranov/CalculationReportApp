@@ -81,7 +81,7 @@ namespace CalculationReportApp
             this.SortByAppleasToolStripMenuItem,
             this.SortByTotalAmountToolStripMenuItem});
             this.сортировкаToolStripMenuItem.Name = "сортировкаToolStripMenuItem";
-            this.сортировкаToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
+            this.сортировкаToolStripMenuItem.Size = new System.Drawing.Size(265, 24);
             this.сортировкаToolStripMenuItem.Text = "Сохранение в файл с сортировкой";
             // 
             // SortByNameToolStripMenuItem
@@ -180,6 +180,7 @@ namespace CalculationReportApp
             this.Controls.Add(this.appealsButton);
             this.Controls.Add(this.menuStrip2);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CalculationReportApplication";
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();

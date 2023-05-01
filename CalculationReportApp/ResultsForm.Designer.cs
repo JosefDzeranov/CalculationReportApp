@@ -170,7 +170,8 @@ namespace CalculationReportApp
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ResultsdataGridView);
             this.Name = "ResultsForm";
-            this.Text = "ResultsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "CalculationReportApplication";
             this.Load += new System.EventHandler(this.ResultsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ResultsdataGridView)).EndInit();
             this.ResumeLayout(false);
