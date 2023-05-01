@@ -5,3 +5,5 @@
 - Выполнен с соблюдением принципов ООП.
 - Результаты отображаются на форме с помощью DataGridView.
 - В проекте используются методы LINQ(для сортировки полученных данных и поиска по фамилии).
+
+<p><img src="https://github.com/Alex-Tairov/CalculationReportApp/blob/master/CalculationReportApp/screenshots/gif.gif" alt="screenshot" width=70%></p>
